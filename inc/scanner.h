@@ -116,7 +116,7 @@ typedef struct scanner_object_t
     scanner_status_t status;
     scanner_evt_handler callback;
 } scanner_object_t;
-
+#define SCANOSS_CLIENT_NAME  "SCANOSS_cli"
 #define API_HOST_DEFAULT "osskb.org/api"
 #define API_PORT_DEFAULT "443"
 #define API_SESSION_DEFAULT "\0"
